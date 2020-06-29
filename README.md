@@ -26,11 +26,11 @@ Build and Run
 
 <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/angelina4.jpg" /> |
 ------------ |
-240 x 150
+Input 240 x 150
 
 <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/GPUoutAngelina.jpg" /> | <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/CPUoutAngelina.jpg" />
 ------------ | ------------- 
-GPU 480 x 300 | CPU 480 x 300
+Output GPU 480 x 300 | Output CPU 480 x 300
 
 Average results after 100 times of runs.
 

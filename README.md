@@ -24,8 +24,8 @@ Build and Run
 
 ## Results
 
-<img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/angelina4.jpg" />
------------- 
+<img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/angelina4.jpg" /> |
+------------ |
 240 x 150
 
 <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/GPUoutAngelina.jpg" /> | <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/CPUoutAngelina.jpg" />

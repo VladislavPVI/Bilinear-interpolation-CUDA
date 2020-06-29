@@ -24,20 +24,18 @@ Build and Run
 
 ## Results
 
-<img src="https://github.com/VladislavPVI/Salt-and-Pepper-Filter-CUDA/blob/master/DOC/NoiseAngelina.jpg" width="480" height="300" /> | <img src="https://github.com/VladislavPVI/Salt-and-Pepper-Filter-CUDA/blob/master/DOC/CPUoutAngelina.jpg" width="480" height="300" />
------------- | ------------- 
-Distorted image (noise 8%) | Filtered image (CPU)
+<img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/angelina4.jpg" />
+------------ 
+240 x 150
 
-<img src="https://github.com/VladislavPVI/Salt-and-Pepper-Filter-CUDA/blob/master/DOC/NoiseAngelina.jpg" width="480" height="300" /> | <img src="https://github.com/VladislavPVI/Salt-and-Pepper-Filter-CUDA/blob/master/DOC/GPUoutAngelina.jpg" width="480" height="300" />
+<img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/GPUoutAngelina.jpg" /> | <img src="https://github.com/VladislavPVI/Bilinear-interpolation-CUDA/blob/master/DOC/CPUoutAngelina.jpg" />
 ------------ | ------------- 
-Distorted image (noise 8%) | Filtered image (GPU)
+GPU 480 x 300 | CPU 480 x 300
 
 Average results after 100 times of runs.
 
 |    Input size  |   Output size |          CPU        |         GPU       | Acceleration |
 |-------------|-|--------------------|-------------------|--------------|
-| 240 x 150   | |9 ms               | 0.1 ms            |    90      |
-| 480 x 300   | |34 ms               | 0.37 ms            |    91.89      |
-| 960 x 600   | |140 ms              | 1.47 ms             |    95.23      |
-| 1920x1200 | |452 ms   | 5.66 ms            |    79.85      |
-| 3840x2400 | |2608 ms | 20.73 ms |    125.8      |
+| 480x300   | 960x600 |3 ms               | 1.5 ms            |    2      |
+| 1920x1200   | 3840x2400 |72 ms               | 20 ms            |    3.6      |
+| 3840x2400   | 7680x4800 |207 ms              | 96.64 ms             |    2.14      |
